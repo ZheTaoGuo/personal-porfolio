@@ -1,5 +1,5 @@
 'use client'
-import Card from './Card'
+import Card from './card'
 import Detail from './Detail/detail'
 import { useState } from 'react'
 
