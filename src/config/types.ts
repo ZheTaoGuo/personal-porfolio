@@ -12,4 +12,5 @@ export type Project = {
     coverImageUrl: string;
     title: string;
     description: string;
+    sourcecode: string;
 };
