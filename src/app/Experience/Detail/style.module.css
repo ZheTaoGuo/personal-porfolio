@@ -1,0 +1,7 @@
+.list::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    color: #71B3E4;
+}
