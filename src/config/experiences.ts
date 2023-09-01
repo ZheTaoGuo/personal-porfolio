@@ -4,14 +4,14 @@ export type Experience = {
     iconUrl: string;
     jobPosition: string ;
     duration: string;
-    companyURL: string;
+    companyUrl: string;
  }
 
 const experiences: Experience[] = [
     {
         iconUrl: "/SAP.png",
         company: "SAP Asia",
-        companyURL: "https://www.sap.com/sea/index.html",
+        companyUrl: "https://www.sap.com/sea/index.html",
         duration: "Jan 2023 - Present",
         jobPosition: "Software Engineer Intern",
         achievements: [
@@ -25,7 +25,7 @@ const experiences: Experience[] = [
     {
         iconUrl: "/LTA.png",
         company: "Land Transport Authority",
-        companyURL: "https://www.lta.gov.sg/content/ltagov/en.html",
+        companyUrl: "https://www.lta.gov.sg/content/ltagov/en.html",
         duration: "March 20219 - June 2019",
         jobPosition: "Software Engineering Intern",
         achievements: [
