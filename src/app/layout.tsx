@@ -4,10 +4,10 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Guo ZheTao',
   description: "Guo ZheTao'/s Personal Website",
-  webkitURL: "https://guozhetao.dev"
+  webkitURL: 'https://guozhetao.dev'
 }
 
 export default function RootLayout({
