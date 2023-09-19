@@ -42,7 +42,7 @@ export default function Project () {
 									</div>
 									<div className="flex flex-wrap mt-3 gap-2">
 										{project.tags.map((tag) => (
-											<SkillTag name={tag}/>
+											<SkillTag key={tag} name={tag}/>
 										))}
 									</div>
 								</div>
