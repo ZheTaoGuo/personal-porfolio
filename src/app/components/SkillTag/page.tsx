@@ -1,4 +1,3 @@
-'use client'
 import Button from './Button'
 
 export default function SkillTag({
@@ -7,8 +6,8 @@ export default function SkillTag({
 	height = 20,
 }: {
 	name: string
-	width?: number
-	height?: number
+	width: number
+	height: number
 }) {
 	switch (name) {
 		case 'ExpressJS':
