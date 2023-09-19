@@ -5,7 +5,6 @@ export default function SkillTag({
 	name,
 }: {
 	name: string
-
 }) {
 	switch (name) {
 		case 'ExpressJS':
@@ -44,5 +43,7 @@ export default function SkillTag({
 			return <Button name='Auth0' />
 		case 'Netlify':
 			return <Button name='Netlify' />
+		default:
+			return <></>
 	}
 }

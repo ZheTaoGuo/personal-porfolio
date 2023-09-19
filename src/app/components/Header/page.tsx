@@ -49,11 +49,8 @@ export default function Header(){
                 >
                     <span className="text-[#8de8ff]">02.</span> Projects
                 </a>
-                <a href="#skills" className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]">
-                    <span className="text-[#8de8ff]">03.</span> Skills
-                </a>
                 <a href="#contact" className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]">
-                    <span className="text-[#8de8ff]">04.</span> Contact
+                    <span className="text-[#8de8ff]">03.</span> Contact
                 </a>
             </div>
             <div className="flex align-center text-slate-300 gap-5 lg:gap-8 items-center">
@@ -68,12 +65,6 @@ export default function Header(){
                     className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]"
                 >
                     <Github />
-                </a>
-                <a
-                    href="mailto:zhetao.guo.2021@scis.smu.edu.sg"
-                    className="hidden md:block ease-in transition duration-200 hover:translate-y-[-0.2rem]"
-                >
-                    <Email />
                 </a>
                 <div onClick={toggleMenu} className="md:hidden">
                     <MenuButton isOpen={isOpen} />

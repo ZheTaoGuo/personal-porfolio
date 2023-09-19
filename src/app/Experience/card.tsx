@@ -14,7 +14,7 @@ export default function Card({
     {}
     return (
         <div>
-            <ol className="relative border-l border-gray-200 min-w-full md:h-[220px]">
+            <ol className="relative border-l border-gray-200 min-w-full">
                 {experiences.map((experience: Experience, index: number) => (
                     <li
                         className={`ml-6 ${

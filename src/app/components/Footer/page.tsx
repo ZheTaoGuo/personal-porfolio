@@ -21,12 +21,6 @@ export default function Footer() {
                 >
                     <Github />
                 </a>
-                <a
-                    href="mailto:zhetao.guo.2021@scis.smu.edu.sg"
-                    className="block"
-                >
-                    <Email />
-                </a>
             </div>
         </div>
     )
