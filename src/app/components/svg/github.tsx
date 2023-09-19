@@ -2,7 +2,8 @@ import {FC, SVGProps} from "react";
 
 const GitHub: FC<SVGProps<SVGSVGElement>> = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg"
-         height="1em"
+         width={24}
+         height={24}
          viewBox="0 0 496 512"
          preserveAspectRatio="xMidYMid"
          {...props}

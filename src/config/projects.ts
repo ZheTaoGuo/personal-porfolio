@@ -5,24 +5,28 @@ const projects: Project[] = [
         id: 'carbon-offset-marketplace',
         coverImageUrl: '/CarbonMarketplace.png',
         title: 'Carbon Offset Marketplace',
-        description: 'A platform that enables individuals and organisations to reduce greenhouse gases through voluntary carbon offsetting.',
-        sourcecode: 'https://github.com/IS213-G9-tokyobanana/carbon-marketplace-backend'
+        description: 'Enables individuals and organisations to reduce greenhouse gases through voluntary carbon offsetting.',
+        sourcecode: 'https://github.com/IS213-G9-tokyobanana/carbon-marketplace-backend',
+        tags: ['Python Flask', 'Nextjs', 'ExpressJS', 'PostgreSQL', 'Rabbitmq', 'Temporal'],
+
     },
     {
         id: 'free-foodie',
         coverImageUrl: '/FreeFoodie.png',
         title: 'Free Foodie',
-        description: 'A platform that provides users dietary consumptions insights and empower them to manage what they intend to consume with existing ingredients that they have to reduce unnecessary food waste.',
-        sourcecode: 'https://github.com/ZheTaoGuo/IS216Project'
+        description: 'Provides users dietary insights and empower them to manage what they intend to consume with existing ingredients to reduce food waste.',
+        sourcecode: 'https://github.com/ZheTaoGuo/IS216Project',
+        tags: ['VueJS', 'Bootstrap', 'PostgreSQL', 'Firebase', 'Netlify'],
     },
     {
         id: 'corporate-pass-system',
         coverImageUrl: '/SSS_Corporate_Pass_System.png',
         title: 'Corporate Pass System',
-        description: 'A platform that facilitates the booking of corporate passes for internal Singapore Sports School Staff.',
-        sourcecode: 'https://github.com/Hoo-dkwozD/PassAway'
+        description: 'Facilitates the booking of corporate passes for internal Singapore Sports School Staff.',
+        sourcecode: 'https://github.com/Hoo-dkwozD/PassAway',
+        tags: ['VueJS', 'Typescript', 'Java Spring Boot','Thymeleaf','MySQL','Auth0'],
     }
 
 ]
 
-export { projects }
+export default projects;

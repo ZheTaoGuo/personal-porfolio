@@ -31,7 +31,7 @@ export default function Header(){
         }
     }, [isOpen])
     return (
-        <header className="flex flex-wrap mx-auto justify-between px-6 py-3 w-screen bg-slate-900 fixed left-0 z-5">
+        <div className="flex flex-wrap mx-auto justify-between px-6 py-3 w-screen bg-slate-800 fixed left-0 z-[100] top-0 scroll-smooth">
             <div className="inline">
                 <Image src="/HeaderLogo.png" alt="headerImage" className="select-none justify-items-start" width="100" height="100">
                 </Image>
@@ -87,7 +87,6 @@ export default function Header(){
                 } top-24 w-full right-0 transition-opacity duration-500 ease-in-out backdrop-blur-sm fixed z-20`}>
                 <Dropdown isOpen={isOpen} toggleMenu={toggleMenu} />
             </div>
-        </header>
-
+        </div>
     )
 }

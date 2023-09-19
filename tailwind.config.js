@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily:{
         sans: ['Inter var']
+      },
+      colors: {
+        'button-color': '#8de8ff'
       }
     },
   },

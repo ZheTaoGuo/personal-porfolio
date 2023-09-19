@@ -26,13 +26,25 @@ const experiences: Experience[] = [
         iconUrl: "/LTA.png",
         company: "Land Transport Authority",
         companyUrl: "https://www.lta.gov.sg/content/ltagov/en.html",
-        duration: "March 20219 - June 2019",
+        duration: "March 2019 - June 2019",
         jobPosition: "Software Engineering Intern",
         achievements: [
             `Developed an android mobile application proof of concept using Java to integrate a location-based service API with speech recognition for 5 pilot visually impaired users.`,
             `Leveraged Amazon Alexa Voice AI as a natural language processing tool to handle speech to text recognition and custom Alexa skills on AWS Lambda to validate speech input.`,
-            `Engineered optimal routes to commuter destinations and reduced commuter wait times for the visually impaired users by 20%`
+            `Engineered optimal routes to commuter destinations and reduced commuter wait times for the visually impaired users by 20%.`
 ]
+    },
+    {
+        iconUrl: "/BevEat.png",
+        company: "Bev Eat",
+        companyUrl: "http://www.beveat.com/",
+        duration: "September 2018 - February 2019",
+        jobPosition: "Software Engineering Intern",
+        achievements: [
+            `Developed a chatbot using React and JavaScript on a charity management platform that increased food delivery service acceptance rates by 50% for 10 pilot food delivery riders.`,
+            `Deployed the chatbot on AWS Amplify to handle scalability based on usage and used AWS Lambda to handle user authentication.`,
+
+        ]
     }
 ]
 
