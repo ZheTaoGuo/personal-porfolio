@@ -11,7 +11,7 @@ export default function Experience() {
     };
 
     return (
-        <section id="exp_section" className="py-20 md:pt-2 md:pb-20 mx-auto max-w-5xl">
+        <section id="exp_section" className="md:pt-24 md:pb-20 mx-auto max-w-5xl">
             <div className="flex flex-col justify-center items-center gap-14">
                 <div className="flex flex-col justify-center items-center">
                     <div className="text-xl font-bold md:text-4xl bg-clip-text text-[#8de8ff]">
@@ -24,7 +24,7 @@ export default function Experience() {
                         selectedExperienceIndex={selectedExperienceIndex}
                         handleExperienceClick={handleExperienceClick}
                     />
-                    <Detail selectedExperienceIndex={selectedExperienceIndex}/>
+                    <Detail selectedExperienceIndex={selectedExperienceIndex} />
                 </div>
             </div>
         </section>

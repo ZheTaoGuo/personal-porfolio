@@ -13,4 +13,5 @@ export type Project = {
     title: string;
     description: string;
     sourcecode: string;
+    tags: string[];
 };

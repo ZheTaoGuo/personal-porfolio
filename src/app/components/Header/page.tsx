@@ -33,7 +33,7 @@ export default function Header(){
     return (
         <div className="flex flex-wrap mx-auto justify-between px-6 py-3 w-screen bg-slate-800 fixed left-0 z-[100] top-0 scroll-smooth">
             <div className="inline">
-                <Image src="/HeaderLogo.png" alt="headerImage" className="select-none justify-items-start" width="100" height="100">
+                <Image src="/HeaderLogo.png" alt="headerImage" className="select-none justify-items-start" width="50" height="50">
                 </Image>
             </div>
             <div className="flex align-center text-slate-200 items-center gap-5 lg:gap-8">
