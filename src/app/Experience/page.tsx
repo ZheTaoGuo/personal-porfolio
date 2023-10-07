@@ -11,10 +11,10 @@ export default function Experience() {
     };
 
     return (
-        <section id="exp_section" className="md:pt-24 md:pb-20 mx-auto max-w-5xl">
+        <section id="exp_section" className="mx-auto max-w-5xl md:gap-5 lg:gap-4 xl:gap-3 py-20">
             <div className="flex flex-col justify-center items-center gap-14">
                 <div className="flex flex-col justify-center items-center">
-                    <div className="text-xl font-bold md:text-4xl bg-clip-text text-[#8de8ff]">
+                    <div className="text-xl font-bold md:text-4xl bg-clip-text text-cyan-400">
                         Experience
                     </div>
                 </div>

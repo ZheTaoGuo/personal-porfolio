@@ -10,9 +10,21 @@ export type Experience = {
 const experiences: Experience[] = [
     {
         iconUrl: "/SAP.png",
-        company: "SAP Asia",
-        companyUrl: "https://www.sap.com/sea/index.html",
-        duration: "Jan 2023 - Present",
+        company: "SAP Labs Singapore",
+        companyUrl: "https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mdk/overview.html",
+        duration: "September 2023 - Present",
+        jobPosition: "Mobile Engineering Intern",
+        achievements: [
+            `Worked under the SAP Mobile Development Toolkit team, focusing on enabling developers and technical business users to build multi-channel applications for iOS and Android devices.`,
+            `Investigated and fixed production issues related to reusable components on the Mobile Development Kit development platform by using Android, Swift and TypeScript`,
+
+        ]
+    },
+    {
+        iconUrl: "/SAP.png",
+        company: "SAP Labs Singapore",
+        companyUrl: "https://help.sap.com/docs/personalized-recommendation?locale=en-US",
+        duration: "Jan 2023 - August 2023",
         jobPosition: "Software Engineer Intern",
         achievements: [
             `Led the design and development of a correlation id logging feature by using an internal Python Logging Library on the Kibana dashboard accompanied with comprehensive unit testing, reducing the the error monitoring process time process by 30% in the development environment.`,

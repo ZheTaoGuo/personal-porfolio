@@ -33,24 +33,27 @@ export default function Header(){
     return (
         <div className="flex flex-wrap mx-auto justify-between px-6 py-3 w-screen bg-slate-800 fixed left-0 z-[100] top-0 scroll-smooth">
             <div className="inline">
-                <Image src="/HeaderLogo.png" alt="headerImage" className="select-none justify-items-start" width="50" height="50">
-                </Image>
+                <a href="/">
+                    <Image src="/HeaderLogo.png" alt="headerImage" className="select-none justify-items-start" width="50" height="50">
+                    </Image>
+                </a>
+
             </div>
             <div className="flex align-center text-slate-200 items-center gap-5 lg:gap-8">
                 <a
                     href="#exp_section"
-                    className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]"
+                    className="hidden md:block text-md ease-in transition duration-200 hover:translate-y-[-0.1rem]"
                 >
-                    <span className="text-[#8de8ff]">01.</span> Experience
+                    <span className="text-white hover:text-cyan-400"> Experience </span>
                 </a>
                 <a
                     href="#project_section"
-                    className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]"
+                    className="hidden md:block text-md hover:text-cyan-400 ease-in transition duration-200 hover:translate-y-[-0.1rem]"
                 >
-                    <span className="text-[#8de8ff]">02.</span> Projects
+                    <span className="text-white hover:text-cyan-400"> Projects </span>
                 </a>
-                <a href="#contact" className="hidden md:block text-md hover:text-[#8de8ff] ease-in transition duration-200 hover:translate-y-[-0.1rem]">
-                    <span className="text-[#8de8ff]">03.</span> Contact
+                <a href="#contact_section" className="hidden md:block text-md hover:text-cyan-400 ease-in transition duration-200 hover:translate-y-[-0.1rem]">
+                    <span className="text-white hover:text-cyan-400"> Contact </span>
                 </a>
             </div>
             <div className="flex align-center text-slate-300 gap-5 lg:gap-8 items-center">

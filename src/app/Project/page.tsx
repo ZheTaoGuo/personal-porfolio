@@ -1,55 +1,67 @@
 'use client'
-import Image from 'next/image'
-import Link from 'next/link'
-import SkillTag from '@/app/components/SkillTag/skilltag'
-import projects from '../../config/projects'
-
+import ProjectComponent from '@/app/components/Project/Project'
+import Tags from '@/app/components/Project/Tags'
+import {ColorTags} from '@/app/components/Project/Tags'
 export default function Project() {
 	return (
-		<section id="project_section" className="py-20 md:pt-24 mb-6 mx-auto max-w-6xl">
+		<section id="project_section" className="mx-auto max-w-5xl md:gap-5 lg:gap-4 xl:gap-3 py-20">
 			<div className="flex flex-col justify-center items-center">
 				<div
-					className="text-xl font-bold md:text-4xl bg-clip-text text-[#8de8ff]">
+					className="text-xl font-bold md:text-4xl bg-clip-text text-cyan-400">
 					Projects
 				</div>
 			</div>
-			<div className="flex flex-row flex-wrap justify-center items-center gap-14 mt-5">
-				{projects.map((project) => (
-					<div key={project.id} className="group">
-
-						<div className="rounded-xl min-h-[550px] max-w-[320px] bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full p-4 md:p-5 3xl:p-[18px] bg-[#18315b] duration-500 ease-in-out group-hover:translate-y-[-0.5rem]">
-							<div className="h-full w-full">
-								<div className="relative w-full">
-									<Image src={project.coverImageUrl}
-										alt={project.coverImageUrl}
-										width={300}
-										height={200}
-										loading="lazy"
-										className="min-w-[200px] min-h-[200px] object-cover rounded-md opacity-60 group-hover:opacity-100 transition-opacity" />
-								</div>
-								<div className="text-slate-100 flex flex-col">
-									<div className="my-3 flex items-center justify-between">
-										<div className="text-md font-bold text-slate-100 group-hover:text-[#8de8ff]">
-											{project.title}
-										</div>
-									</div>
-								</div>
-								<div className="flex flex-wrap w-full text-sm text-slate-100">
-									{project.description}
-								</div>
-								<div className="container mx-auto flex flex-wrap mt-3">
-									<Link href={project.sourcecode} className="px-1 py-1 rounded bg-white text-gray-800 hover:bg-gray-100 font-bold border border-gray-400 rounded shadow">GitHub</Link>
-								</div>
-								<div className="flex flex-wrap mt-3 gap-2">
-									{project.tags.map((tag) => (
-										<SkillTag key={tag} name={tag} width={20} height={200} />
-									))}
-								</div>
-							</div>
-						</div>
-
-					</div>
-				))}
+			<div className="flex flex-col gap-6 mt-12">
+				<ProjectComponent
+					name="Carbon Offset Marketplace"
+					description="Enables individuals and organisations to reduce greenhouse gases through voluntary carbon offsetting"
+					link="https://github.com/IS213-G9-tokyobanana/carbon-marketplace-backend"
+					img={{
+						src: 'carbon-offset-marketplace.png',
+						alt: 'Carbon Offset Marketplace',
+					}}
+					category={
+						<>
+							<Tags color={ColorTags.FUCHSIA}>Python Flask</Tags>
+							<Tags color={ColorTags.LIME}>Next.js</Tags>
+							<Tags color={ColorTags.YELLOW}>Express.js</Tags>
+							<Tags color={ColorTags.ROSE}>PostgreSQL</Tags>
+							<Tags color={ColorTags.GRAY}>RabbitMQ</Tags>
+							<Tags color={ColorTags.INDIGO}>Temporal</Tags>
+						</>
+					}
+				/>
+				<ProjectComponent
+					name="Free Foodie"
+					description="Provides users dietary insights and empower them to manage what they intend to consume with existing ingredients to reduce food waste."
+					link="https://github.com/ZheTaoGuo/IS216Project"
+					img={{ src: '/fflogo-white.png', alt: 'Free Foodie' }}
+					category={
+						<>
+							<Tags color={ColorTags.VIOLET}>Vue.js</Tags>
+							<Tags color={ColorTags.EMERALD}>BootStrap</Tags>
+							<Tags color={ColorTags.ROSE}>PostgreSQL</Tags>
+							<Tags color={ColorTags.GREEN}>FireBase</Tags>
+							<Tags color={ColorTags.CYAN}>Netlify</Tags>
+						</>
+					}
+				/>
+				<ProjectComponent
+					name="Corporate Pass System"
+					description="Facilitates the booking of corporate passes for internal Singapore Sports School Staff."
+					link="https://github.com/ZheTaoGuo/SSP_Corporate-Pass-Booking"
+					img={{ src: '/attractions-pass.png', alt: 'Corporate Pass System' }}
+					category={
+						<>
+							<Tags color={ColorTags.VIOLET}>Vue.js</Tags>
+							<Tags color={ColorTags.INDIGO}>Typescript</Tags>
+							<Tags color={ColorTags.LIME}>Java Spring Boot</Tags>
+							<Tags color={ColorTags.ZINC}>ThymeLeaf</Tags>
+							<Tags color={ColorTags.ROSE}>MySQL</Tags>
+							<Tags color={ColorTags.BLUE}>Auth0</Tags>
+						</>
+					}
+				/>
 			</div>
 		</section>
 	)

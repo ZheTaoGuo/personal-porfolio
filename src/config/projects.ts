@@ -3,7 +3,7 @@ import {Project} from './types'
 const projects: Project[] = [
     {
         id: 'carbon-offset-marketplace',
-        coverImageUrl: '/CarbonMarketplace.png',
+        coverImageUrl: '/carbon-offset-marketplace.png',
         title: 'Carbon Offset Marketplace',
         description: 'Enables individuals and organisations to reduce greenhouse gases through voluntary carbon offsetting.',
         sourcecode: 'https://github.com/IS213-G9-tokyobanana/carbon-marketplace-backend',
@@ -12,7 +12,7 @@ const projects: Project[] = [
     },
     {
         id: 'free-foodie',
-        coverImageUrl: '/FreeFoodie.png',
+        coverImageUrl: '/fflogo-white.png',
         title: 'Free Foodie',
         description: 'Provides users dietary insights and empower them to manage what they intend to consume with existing ingredients to reduce food waste.',
         sourcecode: 'https://github.com/ZheTaoGuo/IS216Project',
@@ -20,7 +20,7 @@ const projects: Project[] = [
     },
     {
         id: 'corporate-pass-system',
-        coverImageUrl: '/SSS_Corporate_Pass_System.png',
+        coverImageUrl: '/attractions-pass.png',
         title: 'Corporate Pass System',
         description: 'Facilitates the booking of corporate passes for internal Singapore Sports School Staff.',
         sourcecode: 'https://github.com/Hoo-dkwozD/PassAway',

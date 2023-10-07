@@ -3,7 +3,7 @@ import Intro from './description'
 
 export default function About() {
     return (
-        <div className="flex flex-col items-center h-[calc(100vh+64px)] justify-center md:gap-5 lg:gap-4 xl:gap-3">
+        <div className="flex flex-col items-center h-[100vh] justify-center md:gap-5 lg:gap-4 xl:gap-3">
             <div className="flex flex-wrap justify-center items-center md:gap-16 lg:gap-32">
                 <div className="max-w-full h-auto">
                     <Image

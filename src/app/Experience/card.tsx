@@ -19,7 +19,7 @@ export default function Card({
                     <li
                         className={`ml-6 ${
                             selectedExperienceIndex === index
-                                ? 'bold underline-offset-[10px] text-[#8de8ff]'
+                                ? 'bold underline-offset-[10px] text-cyan-400'
                                 : ''
                         } ${index === experiences.length - 1 ? 'pb-0' : 'pb-10'}`}
                         key={index}
@@ -27,13 +27,13 @@ export default function Card({
                     >
                         <div
                             className={`absolute w-4 h-4 rounded-full mt-1.5 -left-2 border border-white ${
-                                selectedExperienceIndex === index ? 'bg-[#8de8ff]' : 'bg-slate-100'
+                                selectedExperienceIndex === index ? 'bg-cyan-400' : 'bg-slate-100'
                             }`}
                         ></div>
                         <div className="flex items-center mb-1">
                             <span className={`text-md lg:text-xl leading-none font-bold ${
                                     selectedExperienceIndex === index
-                                        ? 'text-[#8de8ff]'
+                                        ? 'text-cyan-400'
                                         : 'text-slate-100'}`}
                             >
                             {experience.company}

@@ -11,13 +11,13 @@ export default function Footer() {
             <div className="flex align-center text-slate-300 gap-3 lg:gap-8 items-center">
                 <a
                     href="https://www.linkedin.com/in/guozhetao"
-                    className="block"
+                    className="block hover:translate-y-[-0.2rem]"
                 >
                     <Linkedin />
                 </a>
                 <a
                     href="https://github.com/guozhetao"
-                    className="block"
+                    className="block hover:translate-y-[-0.2rem]"
                 >
                     <Github />
                 </a>

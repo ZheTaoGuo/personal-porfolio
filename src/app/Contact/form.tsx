@@ -114,7 +114,7 @@ const ContactForm = () => {
 			<div className="flex justify-start">
 				<Form.Submit asChild>
 					<button
-						className="text-slate-300 border border-[#8de8ff] rounded-md px-4 py-3 hover:bg-[#8de8ff] hover:text-slate-700 transition-all ease-out"
+						className="text-slate-300 border border-cyan-400 rounded-md px-4 py-3 hover:bg-cyan-400 hover:text-slate-700 transition-all ease-out"
 						type="submit"
 					>
 						Submit Message
